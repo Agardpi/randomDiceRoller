@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(135deg, #14b253a8, #e1dea95c) fixed;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 6px;
+    width: 150px;
+    padding: 5px;
+}
+
+button {
+    color: #1e221e;
+    border: solid;
+    border-radius: 4px;
+    height: 40px;
+    width: 90px;
+    background: #f2ee7afc;
+    font-size: 1em;
+    transition: 0.3s;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d2892bfc;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#resultImage img {
+    width: 50px;
+    margin: 5px;
+}
+
+label {
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
